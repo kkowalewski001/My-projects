@@ -12,7 +12,12 @@ sql = "INSERT INTO my_table (TEMPERATURE, SMOKE, SOUNDLVL) VALUES (%s, %s, %s)"
 
 
 #test values
-val = (10, True, 11)
+temp = random.randint(-40, 40)
+smoke = bool(random.randint(0, 1))
+sound = random.randint(0, 60)
+
+
+val = (temp, smoke, sound)
 
 mycursor.execute(sql, val)
 
