@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #025464;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box {
+    width: 100%;
+    height: 200px;
+    background-color: #E57C23;
+}
+
+.title {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    color: #F8F1F1;
+    font-weight: bold;
+    font-size: 42px; 
+}
+
+
+
